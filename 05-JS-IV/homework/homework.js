@@ -67,6 +67,7 @@ function tienePropiedad(objeto, propiedad) {
   // De lo contrario, devuelve "false"
   // Tu código:
   return objeto[propiedad] !== undefined ? true : false;
+  // SE PUEDE USAR OBJECT.HASOWNPROPERTY
 }
 
 function verificarPassword(usuario, password) {
