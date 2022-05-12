@@ -1,0 +1,103 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.white-text {
+  color: white;
+}
+body {
+  background-image: url("cool-background.png");
+  width: 100%;
+  background-size: cover;
+  text-align: center;
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+}
+
+#headerContainer {
+  background-color: black;
+  padding: 40px;
+}
+h1 {
+  font-size: 3em;
+}
+#personal-description {
+  margin: 15px;
+}
+h2{
+    margin: 10px;
+    text-align: left;
+}
+li{
+    margin-bottom: 10px;
+}
+#white-box {
+  background-color: white;
+  margin: 40px;
+  padding: 30px;
+  border: 2px solid black;
+}
+
+.containerDescription {
+  display: inline-flex;
+}
+.container-skill {
+    display: inline-flex;
+    margin: 3px;
+
+  }
+.text-description {
+  font-size: medium;
+  color: rgb(44, 44, 44);
+  text-align: start;
+  margin-left: 20px;
+}
+
+#photo {
+  width: 200px;
+  height: auto;
+}
+
+.container-list{
+   text-align: left;
+   margin-left: 30px;
+   max-width: 500px;
+}
+span{
+    font-size: smaller;
+    color: gray;
+}
+
+.skill{
+margin-right: 20px;
+width: 160px;
+}
+.skill-box-100{
+    border: 1px solid black;
+    width: 300px;
+    padding: 0;
+    text-align: right;
+    display: inline-flex;
+}
+.fill-70{
+    background-color: black;
+    width: 70%;
+    margin: -1px;
+}
+.fill-80{
+    background-color: black;
+    width: 80%;
+    margin: -1px;
+    
+}
+.fill-90{
+    background-color: black;
+    width: 90%;
+    margin: -1px;
+}
+.text-margin{
+margin-left: 5px;
+}
