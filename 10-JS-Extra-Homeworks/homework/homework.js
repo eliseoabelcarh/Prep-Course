@@ -93,6 +93,7 @@ function deleteAbc(cadena) {
     }
   }
   return final;
+  // cadena.split("").filter(x => x !== "a" && x!== "b" && x !== "c" )-join("")
 }
 
 function sortArray(arr) {
@@ -115,6 +116,7 @@ function buscoInterseccion(arreglo1, arreglo2) {
     }
   }
   return final;
+  //tmb usar filter (includes ())
 }
 
 // No modificar nada debajo de esta línea
